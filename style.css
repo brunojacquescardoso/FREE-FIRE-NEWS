@@ -5,4 +5,6 @@ table {
   }
   
   /* ... outras propriedades CSS */
-  
+  .meu-div {
+  border: 2px solid blue;
+}
