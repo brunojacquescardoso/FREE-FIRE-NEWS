@@ -25,3 +25,14 @@ section {
     padding-top: 80px;
     display: flex;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td {
+  white-space: nowrap;
+  overflow-x: auto;
+  padding: 10px;
+}
