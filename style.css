@@ -44,3 +44,26 @@ body {
   padding: 0;
   font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+  table, th, td {
+    font-size: 12px;
+  }
+}
